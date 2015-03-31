@@ -1,0 +1,17 @@
+4 .c files and 1 .h file is the source code 
+makefile is to generate the command 
+ReadBestMap is the command program
+
+to generate the ReadBestMap:
+input the two command in a GNU environment
+make
+make clean
+
+Usage for ReadBestMap
+
+./ReadBest db.fa read.fq
+
+db.fa is the genome file , the format is Fasta
+read.fq is the read file , the format is Fastq
+
+detail  './ReadBestMap'  for help
